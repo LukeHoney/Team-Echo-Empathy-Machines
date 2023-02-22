@@ -13,6 +13,8 @@ public class Question2 : MonoBehaviour
     public GameObject currentPanel;
     public GameObject newPanel;
 
+    [SerializeField] Question4 Question4;
+
     void OnEnable()
     {
         //Register Button Events
@@ -43,6 +45,7 @@ public class Question2 : MonoBehaviour
         {
             //Your code for button 3
             Debug.Log("Clicked: " + button3.name);
+            Question4.correctAnswers = Question4.correctAnswers + 1;
             newPanel.SetActive(true);
             currentPanel.SetActive(false);
         }

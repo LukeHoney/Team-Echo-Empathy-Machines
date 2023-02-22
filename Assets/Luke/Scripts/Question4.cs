@@ -11,6 +11,7 @@ public class Question4 : MonoBehaviour
     public Button button4;
 
     public GameObject currentPanel;
+    public GameObject score0Panel;
     public GameObject score1Panel;
     public GameObject score2Panel;
     public GameObject score3Panel;
@@ -39,21 +40,24 @@ public class Question4 : MonoBehaviour
             //Your code for button 1
             Debug.Log("Clicked: " + button1.name);
             correctAnswers = correctAnswers + 1;
-            
+            LoadScore();
+
         }
 
         if (buttonPressed == button2)
         {
             //Your code for button 2
             Debug.Log("Clicked: " + button2.name);
-            
+            LoadScore();
+
         }
 
         if (buttonPressed == button3)
         {
             //Your code for button 3
             Debug.Log("Clicked: " + button3.name);
-            
+            LoadScore();
+
         }
 
 
@@ -61,12 +65,18 @@ public class Question4 : MonoBehaviour
         {
             //Your code for button 4
             Debug.Log("Clicked: " + button4.name);
-            
-            
+            LoadScore();
+
         }
     }
     public void LoadScore()
     {
+        if (correctAnswers == 0)
+        {
+            score0Panel.SetActive(true);
+            currentPanel.SetActive(false);
+        }
+
         if (correctAnswers == 1)
         {
             score1Panel.SetActive(true);
