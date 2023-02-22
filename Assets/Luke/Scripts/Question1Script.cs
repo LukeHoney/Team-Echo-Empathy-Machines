@@ -13,8 +13,7 @@ public class Question1Script : MonoBehaviour
     public GameObject currentPanel;
     public GameObject newPanel;
 
-    [SerializeField] Question4 Question4;
-
+    public Question4 Question4;
 
     void OnEnable()
     {
@@ -39,7 +38,7 @@ public class Question1Script : MonoBehaviour
         {
             //Your code for button 2
             Debug.Log("Clicked: " + button2.name);
-            Question4.correctAnswers = Question4.correctAnswers + 1;
+            Question4.correctAnswers += 1;
             newPanel.SetActive(true);
             currentPanel.SetActive(false);
         }
