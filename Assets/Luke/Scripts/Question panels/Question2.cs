@@ -13,6 +13,8 @@ public class Question2 : MonoBehaviour
     public GameObject currentPanel;
     public GameObject newPanel;
 
+    public GameObject Doctor5;
+
     [SerializeField] Question4 Question4;
 
     void OnEnable()
@@ -29,16 +31,18 @@ public class Question2 : MonoBehaviour
         {
             //Your code for button 1
             Debug.Log("Clicked: " + button1.name);
-            newPanel.SetActive(true);
-            currentPanel.SetActive(false);
+            StartDoctor5();
+            //newPanel.SetActive(true);
+            //currentPanel.SetActive(false);
         }
 
         if (buttonPressed == button2)
         {
             //Your code for button 2
             Debug.Log("Clicked: " + button2.name);
-            newPanel.SetActive(true);
-            currentPanel.SetActive(false);
+            StartDoctor5();
+            //newPanel.SetActive(true);
+            //currentPanel.SetActive(false);
         }
 
         if (buttonPressed == button3)
@@ -46,8 +50,9 @@ public class Question2 : MonoBehaviour
             //Your code for button 3
             Debug.Log("Clicked: " + button3.name);
             Question4.correctAnswers = Question4.correctAnswers + 1;
-            newPanel.SetActive(true);
-            currentPanel.SetActive(false);
+            StartDoctor5();
+            //newPanel.SetActive(true);
+            //currentPanel.SetActive(false);
         }
 
 
@@ -55,9 +60,17 @@ public class Question2 : MonoBehaviour
         {
             //Your code for button 4
             Debug.Log("Clicked: " + button4.name);
-            newPanel.SetActive(true);
-            currentPanel.SetActive(false);
+            StartDoctor5();
+            //newPanel.SetActive(true);
+            //currentPanel.SetActive(false);
         }
     }
- 
+
+    void StartDoctor5()
+    {
+        Doctor5.SetActive(true);
+        
+        currentPanel.SetActive(false);
+    }
+
 }

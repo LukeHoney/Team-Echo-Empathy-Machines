@@ -2,12 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Daughter2AudioEnd : MonoBehaviour
+public class Doctor4AudioEnd : MonoBehaviour
 {
     AudioSource myAudio;
-
-    public GameObject Daughter2;
-    public GameObject Doctor3;
+    public GameObject question2panel;
+    public GameObject Doctor4;
 
     // Start is called before the first frame update
     void Start()
@@ -18,8 +17,8 @@ public class Daughter2AudioEnd : MonoBehaviour
 
     void audioFinished()
     {
-        Debug.Log("Daughter2 Audio Finished");
-        Doctor3.SetActive(true);
-        Daughter2.SetActive(false);
+        Debug.Log("Doctor4 Audio Finished");
+        question2panel.SetActive(true);
+        Doctor4.SetActive(false);
     }
 }
