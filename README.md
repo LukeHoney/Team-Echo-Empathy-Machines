@@ -18,13 +18,13 @@ write about feature
 #
 ## :paintbrush: Created by:
 ### Luke Honey
-### Emmanuel
+### Emmanuel Olugbade
 #
 ## :computer: Tested on:
 ### Unity Version: 2021.3.17f1 tested on Acer laptop Nitro 5 and Oculus/ Meta Quest 2
 #
 ## 	:package: Assets Used:
-### :Assets:
+### Assets:
 Clinic - Hospital room - by Mixall - https://assetstore.unity.com/packages/3d/environments/clinic-hospital-room-70488 <br/>
 
 ### Audio:
