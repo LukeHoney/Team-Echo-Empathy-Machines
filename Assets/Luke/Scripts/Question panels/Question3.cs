@@ -17,6 +17,8 @@ public class Question3 : MonoBehaviour
 
     [SerializeField] Question4 Question4;
 
+    public Animator DoctorAnimator;
+
     void OnEnable()
     {
         //Register Button Events
@@ -68,7 +70,7 @@ public class Question3 : MonoBehaviour
     void StartDoctor6()
     {
         Doctor6.SetActive(true);
-
+        DoctorAnimator.Play("Turn180");
         currentPanel.SetActive(false);
     }
 }
