@@ -9,6 +9,8 @@ public class Doctor6AudioEnd : MonoBehaviour
     public GameObject Nurse1;
     public GameObject Doctor6;
 
+    public Animator NurseAnimator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,7 @@ public class Doctor6AudioEnd : MonoBehaviour
         Debug.Log("Doctor6 Audio Finished");
 
         Nurse1.SetActive(true);
+        NurseAnimator.Play("Turn180");
         Doctor6.SetActive(false);
     }
 }

@@ -19,6 +19,12 @@ public class Question4 : MonoBehaviour
 
     public GameObject Nurse2;
 
+    public GameObject Doctor2;
+    public GameObject Doctorremove;
+
+    public GameObject NurseNPC2;
+    public GameObject Nurseremove;
+
     public int correctAnswers;
 
     void Start()
@@ -109,8 +115,11 @@ public class Question4 : MonoBehaviour
     }
     void StartNurse2()
     {
+        Doctorremove.SetActive(false);
+        Doctor2.SetActive(true);
+        Nurseremove.SetActive(false);
+        NurseNPC2.SetActive(true);
         Nurse2.SetActive(true);
-
         currentPanel.SetActive(false);
     }
 }
