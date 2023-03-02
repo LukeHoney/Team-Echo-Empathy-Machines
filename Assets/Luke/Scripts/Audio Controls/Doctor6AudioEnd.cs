@@ -8,6 +8,7 @@ public class Doctor6AudioEnd : MonoBehaviour
 
     public GameObject Nurse1;
     public GameObject Doctor6;
+    public GameObject FemaleDoctor;
 
     public Animator NurseAnimator;
 
@@ -23,7 +24,9 @@ public class Doctor6AudioEnd : MonoBehaviour
         Debug.Log("Doctor6 Audio Finished");
 
         Nurse1.SetActive(true);
+        FemaleDoctor.SetActive(false);
         NurseAnimator.Play("Turn180");
         Doctor6.SetActive(false);
+        
     }
 }

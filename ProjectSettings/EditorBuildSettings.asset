@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SylvieStory.unity
     guid: 6e81a256de17b9c4a991b63732c1af70
+  - enabled: 1
+    path: Assets/Scenes/DataScene.unity
+    guid: 351cdad01a2433e48b31f8439990f2c8
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: fc52e5fd416550f4dafe21b2532c403f,
       type: 2}

@@ -3,25 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class StartDoctor1 : MonoBehaviour
+public class StartPanel : MonoBehaviour
 {
     public Button startButton;
 
-    public GameObject Doctor1;
-    public GameObject femaleDoctor1;
+    public GameObject startPanel;
     public GameObject welcomePanel;
 
     // Start is called before the first frame update
     void Start()
     {
         Button btn = startButton.GetComponent<Button>();
-        btn.onClick.AddListener(LoadDoctor1);
+        btn.onClick.AddListener(Loadwelcome);
     }
 
-    public void LoadDoctor1()
+    void Loadwelcome()
     {
-        Doctor1.SetActive(true);
-        femaleDoctor1.SetActive(true);
-        welcomePanel.SetActive(false);
+        welcomePanel.SetActive(true);
+        startPanel.SetActive(false);
     }
 }
