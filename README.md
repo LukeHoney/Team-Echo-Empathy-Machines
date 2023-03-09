@@ -2,7 +2,7 @@
 
 ### EG-M130: Assignment 1: Empathy Machines Group Project VR MSc for Swansea University 
 <br/>
-!Put in Discrition of app <br/>
+DeafSense utilized the first-person perspective of VR to simulate a potential scenario that a deaf individual may encounter in a medical setting. The story has been influenced by real events that deaf people have experienced some of these stories are also included in the application. <br/>
 
 # :ear_with_hearing_aid: Becoming DeafSense
 !put in video!
@@ -31,6 +31,7 @@ Clinic - Hospital room - by Mixall - https://assetstore.unity.com/packages/3d/en
 Donna Story by NAC - Deaf Awareness eLearning Package <br/>
 Sylvie Story by NAC - Deaf Awareness eLearning Package <br/>
 Susan’s Story: When communication fails deaf people – By Citizens Advice Sheffield - https://youtu.be/-7XeWDo47nk <br/>
+Christmas Theme Stage - Migfus20 - https://freesound.org/people/Migfus20/sounds/559836/ <br/>
 
 ### Images:
 Ear line Drawing - https://www.dreamstime.com/one-continuous-line-drawing-human-ear-icon-symbol-hear-health-sensory-aid-simple-linear-style-mascot-concept-world-image263532045 <br/>
