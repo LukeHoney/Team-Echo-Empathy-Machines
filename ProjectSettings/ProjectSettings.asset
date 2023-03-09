@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Team Echo
-  productName: Team Echo
+  productName: DeafSence
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -135,10 +135,7 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 1.0.0
-  preloadedAssets:
-  - {fileID: 11400000, guid: fc52e5fd416550f4dafe21b2532c403f, type: 2}
-  - {fileID: -1103679558296061887, guid: 364db49bd62110d47a4a9bb7a45187ce, type: 2}
-  - {fileID: 2090139321271789216, guid: a54a8eab87bba6049a2eae00a02338af, type: 2}
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -158,7 +155,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.SwanseaUniversity.MetaQuestTemplate
+    Android: com.TeamEcho.DeafSence
     Standalone: com.SwanseaUniversity.Quest2Template
   buildNumber:
     Standalone: 0
