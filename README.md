@@ -4,17 +4,17 @@
 <br/>
 !Put in Discrition of app <br/>
 
-# :ear: Becoming DeafSense
+# :ear_with_hearing_aid: Becoming DeafSense
 !put in video!
 #
 ## :desktop_computer: Website
 ### !put in website link!
 #
-## :tulip: Add a feature
-write about feature
+## :hospital: Experience what it is like
+The user assumes the role of a deaf patient lying in a hospital bed, while a doctor and their daughter engage in a conversation in front of them. The user is required to lipread the dialogue and respond to the questions related to their medical condition that appear on the screen. Since the questions are designed to be challenging, most users will likely answer them incorrectly, mimicking the experience of exclusion and frustration that deaf individuals may face during conversations. 
 #
-## :seedling: Add a feature
-write about feature
+## :family_man_man_girl_boy: Listen to their stories
+The user can listen to 3 real stories that deaf people have experience in a health care setting. Through listening to these stories, healthcare providers may gain a better understanding of how to effectively communicate with deaf patients, how to ensure that deaf patients receive appropriate care, and how to create an inclusive and accessible healthcare environment. Additionally, hearing about the experiences of deaf individuals could help to raise awareness of the importance of accessibility and inclusion in healthcare settings.
 #
 ## :paintbrush: Created by:
 ### Luke Honey
