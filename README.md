@@ -5,10 +5,14 @@
 DeafSense utilized the first-person perspective of VR to simulate a potential scenario that a deaf individual may encounter in a medical setting. The story has been influenced by real events that deaf people have experienced some of these stories are also included in the application. <br/>
 
 # :ear_with_hearing_aid: Becoming DeafSense
-!put in video!
+
+
+https://user-images.githubusercontent.com/115563029/224505533-c3726903-b2ef-4cf1-99f6-25da6121741d.mp4
+
+
 #
 ## :desktop_computer: Website
-### !put in website link!
+### https://2248102.wixsite.com/empathy-machine
 #
 ## :hospital: Experience what it is like
 The user assumes the role of a deaf patient lying in a hospital bed, while a doctor and their daughter engage in a conversation in front of them. The user is required to lipread the dialogue and respond to the questions related to their medical condition that appear on the screen. Since the questions are designed to be challenging, most users will likely answer them incorrectly, mimicking the experience of exclusion and frustration that deaf individuals may face during conversations. 
