@@ -3100,7 +3100,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Do you feel frustrated by this experience? \r\n\nThis is why we must show
-    empathy and include the deaf.\r\n"
+    empathy and include deaf people.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3664,7 +3664,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Do you feel frustrated by this experience? \r\n\nThis is why we must show
-    empathy and include the deaf.\r\n"
+    empathy and include deaf people.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5392,7 +5392,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Do you feel frustrated by this experience? \r\n\nThis is why we must show
-    empathy and include the deaf.\r\n"
+    empathy and include deaf people.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7120,7 +7120,12 @@ PrefabInstance:
     - target: {fileID: 6588659386880819268, guid: a2b236a66d0748a479655a0aea478730,
         type: 3}
       propertyPath: m_text
-      value: What dietary requirements are you supposed to begin?
+      value: What dietary requirements are you expected to start following?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6588659386880819271, guid: a2b236a66d0748a479655a0aea478730,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 61.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2b236a66d0748a479655a0aea478730, type: 3}
@@ -11623,7 +11628,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Do you feel frustrated by this experience? \r\n\nThis is why we must show
-    empathy and include the deaf.\r\n"
+    empathy and include deaf people.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13622,7 +13627,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Do you feel frustrated by this experience? \r\n\nThis is why we must show
-    empathy and include the deaf.\r\n"
+    empathy and include deaf people.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
