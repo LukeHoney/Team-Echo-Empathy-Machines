@@ -6,9 +6,7 @@ DeafSense utilized the first-person perspective of VR to simulate a potential sc
 
 # :ear_with_hearing_aid: Becoming DeafSense
 
-
-https://user-images.githubusercontent.com/115563029/224505533-c3726903-b2ef-4cf1-99f6-25da6121741d.mp4
-
+https://user-images.githubusercontent.com/115563029/224545404-7666c121-7d5b-4800-a908-3dc51361fe5b.mp4
 
 #
 ## :desktop_computer: Website
